@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+.streamlit/secrets.toml
+# user data and generated exports
+data/*.csv
+!data/sample.csv
+eda_report.*
+cleaned_data.csv
+cleaning_log.csv
